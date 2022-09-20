@@ -1,0 +1,378 @@
+@font-face {
+    font-family: 'Montserat';
+    src: url('./Montserrat.ttf');
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+}
+
+p{
+    margin: 0;padding: 0;
+}
+
+body{
+    font-family: 'Montserat',sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header__adress{
+    width: 10.5%;
+}
+
+.header__mail-to{
+    width: 12%;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.header__mail{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__mail img {
+    margin-right: 5px;
+}
+
+.list-item{
+    list-style: none;
+    font-size: 12px;
+    margin-right: 15px;
+    font-weight: 700;
+}
+
+.header__adr{
+    font-style: normal;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__adr img{
+    margin-right: 5px;
+}
+
+.header__tel{
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+    font-weight: 900;
+}
+
+.header__number{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__btn{
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    border: 0;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+.header__social:not(:last-child){
+    margin-right: 10px;
+}
+
+
+.left-part h1{
+    font-size: 8px;
+    max-width: 150px;
+}
+
+.main__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.left-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-part button{
+   width: 24;
+   height: 24px;
+   margin-right: 15px;
+}
+
+.left-part img{
+    height: 24px;
+ }
+
+
+ .left-part h1{
+    margin-right: 45px;
+    margin-left: 25px;
+ }
+
+ .right-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ .right-part button:not(:last-child){
+    margin-right: 50px;
+ }
+
+ .right-part button{
+    position: relative;
+ }
+
+ .right-part button::after{
+    content: "5";
+    position: absolute;
+    display: block;
+    right:-5px;
+    top: -5px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 2px 4px;
+    font-size: 10px;
+ }
+
+ .main__left-part nav ul{
+    margin: 0;padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .main__left-part nav ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    cursor: pointer;
+ }
+
+ .main__left-part nav ul li:last-child{
+    color: red;
+ }
+
+ .main__left-part{
+    width: 11%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+ }
+
+ .main__left-part address{
+    font-size: 10px;
+    font-style: normal;
+    opacity: .7;
+    margin-bottom: 15px;
+ }
+
+ .main__left-part p{
+    width: 85%;
+    font-size: 10px;
+    opacity: .7;
+ }
+
+ .right-part__main{
+    width: 100%;
+    margin-left: 40px;
+ }
+
+
+ .slider{
+    margin-top: 40px;
+    padding-top:40px;
+    width: 82%;
+    background-color: rgb(219, 0, 0);
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 30px;
+ }
+
+ .slider::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 85%;
+    height: 370px;
+    background-image: url('./image/Лодка.png');
+    top: -40px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    right: -40px;
+ }
+
+ .slider::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 39%;
+    height: 370px;
+    background-image: url('./image/person.png');
+    top: -15px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    right: -20px;
+ }
+
+ .slider h2{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 200;
+    color: #fff;
+ }
+
+ .slider p{
+    margin-left: 30px;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: 200;
+    color: #fff;
+    text-decoration: line-through;
+ }
+
+ .slider h3{
+    margin-top: 0;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    color: #fff;
+ }
+
+ .btn-add{
+    margin-left: 30px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+ }
+
+ .buttons{
+    margin-left: 30px;
+    padding-bottom: 24px;
+ }
+
+ 
+ .buttons button:first-child{
+    margin-right: 30px;
+ }
+
+ .main-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+ }
+
+ .bottom-item{
+    width: 20%;
+    margin-right: 20px;
+    border-radius: 5px;
+ }
+
+ .bottom-item h4{
+    margin: 0;
+    padding: 20px;
+    width: 80%;
+ }
+
+ .bottom-item p{
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    width:50%;
+    font-size: 11px;
+    line-height: 16px;
+ }
+
+
+
+
+.item1{
+    background-color: rgb(204, 204, 204);
+    padding-bottom: 40px;
+    background-image: url('./image/Телефон.png');
+    background-repeat: no-repeat;
+    background-position: 105px 0;
+}
+
+.item2{
+    background-color: rgb(255, 238, 0);
+    padding-bottom: 89px;
+    background-image: url('./image/часики.png');
+    background-repeat: no-repeat;
+    background-position: 115px 40px;
+}
+.item3{
+    background-color: rgb(47, 78, 255);
+    padding-bottom: 36px;
+    background-image: url('./image/лодка2.png');
+    background-repeat: no-repeat;
+    background-position: 115px 0px;
+}
+.item4{
+    background-color: rgb(40, 203, 26);
+    padding-bottom: 83px;
+    background-image: url('./image/sale.png');
+    background-repeat: no-repeat;
+    background-position: 118px 5px;
+}
+
+.calc{
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    padding: 5px;
+    -webkit-box-shadow: 0px 7px 25px -7px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 7px 25px -7px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 7px 25px -7px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
