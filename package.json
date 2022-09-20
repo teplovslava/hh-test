@@ -1,0 +1,16 @@
+{
+  "name": "test-hh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://teplovslava.github.io/",
+  "scripts": {
+    "deploy":"build -d deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
